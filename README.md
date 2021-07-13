@@ -4,7 +4,7 @@ Bank Buddy is about transforming the stereotype of banking.  In this era of the 
 
 2. Payment Section- Checking your budget and segregating it into categories is quite tedious and manual. So, this would be now done by AmexMate. All the transactions for the month would be segregated into categories and a pie chart would be drawn showing the stats since psychologically diagrammatic descriptions are always more understandable. Apart from that, clicking on any section of the pie chart would show all transactions related to the category.
 
-3.Saving Section- Dreaming of a car to buy but don't have enough savings, and manually adding spendings into any savings tracker seems tedious. Here, this savings tracker would show how much you have spent. Just enter the monthly budget and by analysing the transactions done, it will show whether you have exceeded the budget or are saving.
+3. Saving Section- Dreaming of a car to buy but don't have enough savings, and manually adding spendings into any savings tracker seems tedious. Here, this savings tracker would show how much you have spent. Just enter the monthly budget and by analysing the transactions done, it will show whether you have exceeded the budget or are saving.
 
 Hence, using these use cases, we have tried to add hyper-personalization to fintech using open banking to make banking more convenient and personalized. It will be win-win situation for both the bank and the user as user will now get a buddy who will assist them and bank will get to know their customer well which is definitely important for any organisation.
 
