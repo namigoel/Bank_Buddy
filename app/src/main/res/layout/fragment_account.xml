@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AccountFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:textColor="#fff"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:text="Linked Applications"
+            android:gravity="center_horizontal"
+            android:id="@+id/label"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goopay"
+        android:layout_margin="10sp"
+        app:cardCornerRadius="20sp"
+
+        android:padding="20sp"
+        android:elevation="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_500"
+            android:padding="5sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:id="@+id/gpay"
+                android:layout_height="wrap_content"
+                android:text="GPay"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phnepe"
+        android:layout_margin="10sp"
+        app:cardCornerRadius="20sp"
+        android:padding="20sp"
+        android:elevation="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_500"
+            android:padding="5sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Phonepe"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/mobikwik"
+        app:cardCornerRadius="20sp"
+        android:padding="20sp"
+        android:elevation="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_500"
+            android:padding="5sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Mobikwik"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/paytm"
+        app:cardCornerRadius="20sp"
+        android:padding="20sp"
+        android:elevation="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_500"
+            android:padding="5sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Paytm"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:id="@+id/myjio"
+        app:cardCornerRadius="20sp"
+        android:padding="20sp"
+        android:elevation="20sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_500"
+            android:padding="5sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Myjio"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20sp"
+        android:layout_gravity="bottom"
+        android:id="@+id/logout"
+        app:cardCornerRadius="40sp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10sp"
+            android:text="LOGOUT"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+
+            android:layout_height="wrap_content"
+            android:background="#F44336"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+</LinearLayout>

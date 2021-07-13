@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532830069799",
+    "project_id": "amexmate",
+    "storage_bucket": "amexmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532830069799:android:b782736921d88435b51a02",
+        "android_client_info": {
+          "package_name": "com.example.amexmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532830069799-1l98vipguhel2ntqpq1a6q4qfppug652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkxNSGDjhigUrM9dlH8jECWd-VFGtWIvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532830069799-1l98vipguhel2ntqpq1a6q4qfppug652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
